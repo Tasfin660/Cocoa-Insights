@@ -52,28 +52,28 @@ const DataProvider = ({ children }: { children: ReactNode }) => {
 
 	const getChocolates = () => {
 		axios
-			.get(`${import.meta.env.VITE_BASE_URL}/api/v1/chocolates`)
+			.get(`/api/v1/chocolates`)
 			.then(res => dispatch({ type: 'chocolates/loaded', payload: res.data }))
 			.catch(err => dispatch({ type: 'error', payload: err.message }));
 	};
 
 	const postChocolate = async (data: DataType) => {
 		axios
-			.post(`${import.meta.env.VITE_BASE_URL}/api/v1/chocolates`, data)
+			.post(`/api/v1/chocolates`, data)
 			.then(res => dispatch({ type: 'chocolate/post', payload: res.data }))
 			.catch(err => dispatch({ type: 'error', payload: err.message }));
 	};
 
 	const deleteChocolate = async (id: string) => {
 		axios
-			.delete(`${import.meta.env.VITE_BASE_URL}/api/v1/chocolates/${id}`)
+			.delete(`/api/v1/chocolates/${id}`)
 			.then(() => dispatch({ type: 'chocolate/delete', payload: id }))
 			.catch(err => dispatch({ type: 'error', payload: err.message }));
 	};
 
 	const getPremiums = () => {
 		axios
-			.get(`${import.meta.env.VITE_BASE_URL}/api/v1/premiums`)
+			.get(`/api/v1/premiums`)
 			.then(res => dispatch({ type: 'premiums/loaded', payload: res.data }))
 			.catch(err => dispatch({ type: 'error', payload: err.message }));
 	};

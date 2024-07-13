@@ -3,19 +3,23 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 
+const clientDir = dirname(fileURLToPath(import.meta.url));
+
 // https://vitejs.dev/config/
 export default defineConfig({
+	root: clientDir,
 	plugins: [react()],
-	server: {
-		port: 3000
-	},
 	resolve: {
 		alias: [
 			{
 				find: '@',
-				replacement: join(dirname(fileURLToPath(import.meta.url)), './src')
+				replacement: join(clientDir, './src')
 			},
-			{ find: '~', replacement: dirname(fileURLToPath(import.meta.url)) }
+			{ find: '~', replacement: clientDir }
 		]
+	},
+	build: {
+		outDir: join(clientDir, './dist/____'),
+		emptyOutDir: true
 	}
 });

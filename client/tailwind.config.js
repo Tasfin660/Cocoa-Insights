@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	content: ['../client/index.html', '../client/src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		fontFamily: {
 			crimsonPro: ['Crimson Pro', 'serif'],
