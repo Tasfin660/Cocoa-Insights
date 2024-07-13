@@ -16,17 +16,18 @@ export default async (express, app) => {
 
 		app.get('*', (req, res) => vite.middlewares(req, res))
 	} else {
-		app.use(
-			express.static(join(clientDir, './dist/____'), {
-				cacheControl: false,
-				setHeaders(res, path, __) {
-					const bn = basename(path)
-					if (bn && bn.match(/.*-.{8}.[a-zA-Z0-9]+$/)?.[0] === bn) res.setHeader('cache-control', 'public, max-age=31536000, immutable')
-					else res.setHeader('cache-control', 'public, max-age=120, must-revalidate')
-				}
-			})
-		)
-
-		app.get('*', (_, res) => res.setHeader('cache-control', 'public, max-age=60, must-revalidate').sendFile(join(clientDir, './dist/____/index.html')))
+		if (process.env.Serverless !== 'Yes') {
+			app.use(
+				express.static(join(clientDir, './dist'), {
+					cacheControl: false,
+					setHeaders(res, path, __) {
+						const bn = basename(path)
+						if (bn && bn.match(/.*-.{8}.[a-zA-Z0-9]+$/)?.[0] === bn) res.setHeader('cache-control', 'public, max-age=31536000, immutable')
+						else res.setHeader('cache-control', 'public, max-age=120, must-revalidate')
+					}
+				})
+			)
+			app.get('*', (_, res) => res.setHeader('cache-control', 'public, max-age=60, must-revalidate').sendFile(join(clientDir, './dist/index.html')))
+		} else app.get('*', (_, res) => res.sendFile(join(clientDir, './dist/index.html')))
 	}
 }

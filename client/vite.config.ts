@@ -17,9 +17,5 @@ export default defineConfig({
 			},
 			{ find: '~', replacement: clientDir }
 		]
-	},
-	build: {
-		outDir: join(clientDir, './dist/____'),
-		emptyOutDir: true
 	}
 });
