@@ -1,0 +1,110 @@
+/* *Smooth rendering */
+.smooth-rendering {
+	animation: smooth-render 0.5s ease-in;
+}
+
+@keyframes smooth-render {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* *Login from input error animation */
+.form-error-animation {
+	animation: text-slideIn 0.4s ease-in;
+}
+@keyframes text-slideIn {
+	0% {
+		right: -100px;
+		opacity: 0;
+	}
+
+	100% {
+		right: 32px;
+		opacity: 1;
+	}
+}
+
+/* *Display message slideIn animation */
+.authError-animation {
+	right: -350px;
+	animation: message-slideIn 3s ease-out;
+}
+
+@keyframes message-slideIn {
+	0% {
+		right: -350px;
+		opacity: 0;
+	}
+
+	20% {
+		right: 32px;
+		opacity: 1;
+	}
+
+	75% {
+		right: 32px;
+		opacity: 1;
+	}
+
+	100% {
+		right: -350px;
+		opacity: 0;
+	}
+}
+
+/* *Spinner animation */
+.spinner {
+	width: 40px;
+	height: 40px;
+	display: grid;
+	animation: spinner-plncf9 2.4s infinite;
+}
+
+.spinner::before,
+.spinner::after {
+	content: '';
+	grid-area: 1/1;
+	border: 6.4px solid;
+	border-radius: 50%;
+	border-color: var(--color-brand) var(--color-brand) #0000 #0000;
+	mix-blend-mode: darken;
+	animation: spinner-plncf9 0.6s infinite linear;
+}
+
+.spinner::after {
+	border-color: #0000 #0000 var(--color-secondary-dark)
+		var(--color-secondary-dark);
+	animation-direction: reverse;
+}
+
+@keyframes spinner-plncf9 {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+/* *Page loader animation */
+.loader {
+	width: 56px;
+	height: 56px;
+	--c: radial-gradient(farthest-side, var(--color-brand-extradark) 92%, #0000);
+	background:
+		var(--c) 50% 0,
+		var(--c) 50% 100%,
+		var(--c) 100% 50%,
+		var(--c) 0 50%;
+	background-size: 13.4px 13.4px;
+	background-repeat: no-repeat;
+	animation: spinner-kh173p 0.6s infinite;
+}
+
+@keyframes spinner-kh173p {
+	to {
+		transform: rotate(0.5turn);
+	}
+}

@@ -1,0 +1,404 @@
+{
+	"chocolates": [
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Milk Chocolate",
+			"image": "/chocolates/KitKat/Milk Chocolate.webp",
+			"rate": 4,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-milk-chocolate-king-size-candy-bar-3-oz.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Crisp Waffer",
+			"image": "/chocolates/KitKat/Crisp Waffer.webp",
+			"rate": 4,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-fall-harvest-milk-chocolate-miniatures-candy-bars-10-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Mint+ Dark",
+			"image": "/chocolates/KitKat/Mint Dark.webp",
+			"rate": 2,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-duos-mint-and-dark-chocolate-king-size-candy-bar-3-oz.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Witch's Brew",
+			"image": "/chocolates/KitKat/Witch's Brew.webp",
+			"rate": 2,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-witchs-brew-white-creme-snack-size-candy-bars-9-8-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Breaking Bones",
+			"image": "/chocolates/KitKat/Breaking Bones.webp",
+			"rate": 4,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-breaking-bones-white-creme-snack-size-candy-bars-10-29-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Dark Chocolate",
+			"image": "/chocolates/KitKat/Dark Chocolate.webp",
+			"rate": 4,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-halloween-dark-chocolate-snack-size-candy-bars-9-8-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Ghost Toast",
+			"image": "/chocolates/KitKat/Ghost Toast.webp",
+			"rate": 3,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-ghost-toast-snack-size-candy-bars-9-8-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Birthday Cake",
+			"image": "/chocolates/KitKat/Birthday Cake.webp",
+			"rate": 3,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-birthday-cake-snack-size-candy-bars-10-29-oz-bag.html"
+		},
+		{
+			"brand": "KitKat",
+			"brand_link": "https://www.kitkat.co.uk",
+			"name": "Pink Lemonade",
+			"image": "/chocolates/KitKat/Pink Lemonade.webp",
+			"rate": 3,
+			"shop_link": "https://www.hersheyland.com/products/kit-kat-pink-lemonade-king-size-candy-bar-3-oz.html"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Fruit and Nut",
+			"image": "/chocolates/Dairy Milk/Fruit and Nut.webp",
+			"rate": 3,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-fruit-and-nut-chocolate-bar-110g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Chocolate Bar",
+			"image": "/chocolates/Dairy Milk/Chocolate Bar.webp",
+			"rate": 2,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-chocolate-bar-180g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Mint Bar",
+			"image": "/chocolates/Dairy Milk/Mint Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-mint-chocolate-bar-180g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Caramel Bar",
+			"image": "/chocolates/Dairy Milk/Caramel Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-caramel-chocolate-bar-180g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Oreo Bar",
+			"image": "/chocolates/Dairy Milk/Oreo Bar.webp",
+			"rate": 4,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-oreo-chocolate-bar-120g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Daim Bar",
+			"image": "/chocolates/Dairy Milk/Daim Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-daim-chocolate-bar-120g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Jelly Popping Bar",
+			"image": "/chocolates/Dairy Milk/Jelly Popping Bar.webp",
+			"rate": 1,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-marvellous-creations-jelly-popping-chocolate-candy-bar-160g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Wholenut Bar",
+			"image": "/chocolates/Dairy Milk/Wholenut Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-wholenut-chocolate-bar-120g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Salted Caramel",
+			"image": "/chocolates/Dairy Milk/Salted Caramel Bar.webp",
+			"rate": 2,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-salted-caramel-chocolate-bar-120g/"
+		},
+		{
+			"brand": "Dairy Milk",
+			"brand_link": "https://www.cadbury.co.uk/",
+			"name": "Nutty Praline Crisp",
+			"image": "/chocolates/Dairy Milk/Nutty Praline Crisp.webp",
+			"rate": 4,
+			"shop_link": "https://www.cadbury.co.uk/products/cadbury-dairy-milk-andmore-nutty-praline-crisp-milk-chocolate-bar-180g/"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Chocolate Bar",
+			"image": "/chocolates/Mars/Chocolate Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/chocolate-bar/mars-chocolate-bar-51g"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Snack Bar",
+			"image": "/chocolates/Mars/Snack Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/chocolate-bar/mars-chocolate-snack-bars-multipack-9x338g"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Protein Bar",
+			"image": "/chocolates/Mars/Protein Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/protein-bar/mars-protein-chocolate-bar-50g"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Chocolate 3 Bar",
+			"image": "/chocolates/Mars/Chocolate 3 Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/chocolate-bar/mars-chocolate-bars-multipack-3x394g"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Fun Size Bar",
+			"image": "/chocolates/Mars/Fun Size Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/chocolate-bar/mars-chocolate-fun-size-bars-multipack-19x18g"
+		},
+		{
+			"brand": "Mars",
+			"brand_link": "https://www.marsbar.co.uk/",
+			"name": "Snack 4 Bar",
+			"image": "/chocolates/Mars/Snack 4 Bar.webp",
+			"rate": 3,
+			"shop_link": "https://www.marsbar.co.uk/products/chocolate-bar/mars-chocolate-snack-bars-multipack-4x394g"
+		},
+		{
+			"brand": "Kinder",
+			"brand_link": "https://www.kinder.com/",
+			"name": "Kinder Chocolate",
+			"image": "/chocolates/Kinder/Kinder Chocolate.webp",
+			"rate": 3,
+			"shop_link": "https://www.kinder.com/us/en/kinder-chocolate"
+		},
+		{
+			"brand": "Kinder",
+			"brand_link": "https://www.kinder.com/",
+			"name": "Kinder Mini",
+			"image": "/chocolates/Kinder/Kinder Mini.webp",
+			"rate": 3,
+			"shop_link": "https://www.kinder.com/us/en/kinder-chocolate"
+		},
+		{
+			"brand": "Kinder",
+			"brand_link": "https://www.kinder.com/",
+			"name": "Bueno Sharing",
+			"image": "/chocolates/Kinder/Bueno Sharing.webp",
+			"rate": 3,
+			"shop_link": "https://www.kinder.com/us/en/bueno-us-landing-page"
+		},
+		{
+			"brand": "Kinder",
+			"brand_link": "https://www.kinder.com/",
+			"name": "Bueno 5",
+			"image": "/chocolates/Kinder/Bueno 5.webp",
+			"rate": 3,
+			"shop_link": "https://www.kinder.com/us/en/bueno-us-landing-page"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Candy Bar",
+			"image": "/chocolates/Snickers/Candy Bar.webp",
+			"rate": 4,
+			"shop_link": "https://www.snickers.com/products/chocolate/snickers-singles-size-chocolate-candy-bars-186-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Almond Single",
+			"image": "/chocolates/Snickers/Almond Single.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/chocolate/snickers-almond-singles-chocolate-candy-bars-176-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Peanut Butter",
+			"image": "/chocolates/Snickers/Peanut Butter.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/chocolate/snickers-peanut-butter-squared-4-go-candy-bar-356-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "White Chocolate",
+			"image": "/chocolates/Snickers/White Chocolate.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/chocolate/snickers-white-chocolate-share-size-candy-bars-284-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Peanut Brownie",
+			"image": "/chocolates/Snickers/Peanut Brownie.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/chocolate/snickers-peanut-brownie-squares-full-size-chocolate-candy-bar-12-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Hi Protein",
+			"image": "/chocolates/Snickers/Hi Protein.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/protein-bar/snickers-hi-protein-original-bar-201-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Protein Peanut",
+			"image": "/chocolates/Snickers/Protein Peanut.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/protein-bar/snickers-hi-protein-peanut-butter-bar-2-oz-bars"
+		},
+		{
+			"brand": "Snickers",
+			"brand_link": "https://www.snickers.com/",
+			"name": "Peanut Ice Cream",
+			"image": "/chocolates/Snickers/Peanut Ice Cream.webp",
+			"rate": 3,
+			"shop_link": "https://www.snickers.com/products/ice-cream/snickers-creamy-peanut-butter-ice-cream-bars-12-oz-6-ct-box-bars"
+		},
+		{
+			"brand": "Toblerone",
+			"brand_link": "https://www.toblerone.co.uk",
+			"name": "Personalised 750g",
+			"image": "/chocolates/Toblerone/Personalised 750g.webp",
+			"rate": 3,
+			"shop_link": "https://www.toblerone.co.uk/personalised-large-toblerone-750g-bar/13657259.html"
+		},
+		{
+			"brand": "Toblerone",
+			"brand_link": "https://www.toblerone.co.uk",
+			"name": "Personalised 200g",
+			"image": "/chocolates/Toblerone/Personalised 200g.webp",
+			"rate": 3,
+			"shop_link": "https://www.toblerone.co.uk/personalised-200g-bar/14926663.html"
+		},
+		{
+			"brand": "Toblerone",
+			"brand_link": "https://www.toblerone.co.uk",
+			"name": "Personalised 360g",
+			"image": "/chocolates/Toblerone/Personalised 360g.webp",
+			"rate": 3,
+			"shop_link": "https://www.toblerone.co.uk/personalised-toblerone-chocolate-360g-bar/13165629.html"
+		},
+		{
+			"brand": "Twix",
+			"brand_link": "https://www.twix.com/",
+			"name": "Caramel Full",
+			"image": "/chocolates/Twix/Caramel Full.webp",
+			"rate": 3,
+			"shop_link": "https://www.twix.com/products/chocolate/twix-bar-bars"
+		},
+		{
+			"brand": "Twix",
+			"brand_link": "https://www.twix.com/",
+			"name": "Cookie Dough",
+			"image": "/chocolates/Twix/Cookie Dough.webp",
+			"rate": 3,
+			"shop_link": "https://www.twix.com/products/chocolate/twix-cookie-dough-full-size-candy-bar-136oz-bars"
+		},
+		{
+			"brand": "Twix",
+			"brand_link": "https://www.twix.com/",
+			"name": "Salted Caramel",
+			"image": "/chocolates/Twix/Salted Caramel.webp",
+			"rate": 3,
+			"shop_link": "https://www.twix.com/products/chocolate/twix-salted-caramel-bar-bars"
+		},
+		{
+			"brand": "Twix",
+			"brand_link": "https://www.twix.com/",
+			"name": "Cookies & Creme",
+			"image": "/chocolates/Twix/Cookies & Creme.webp",
+			"rate": 3,
+			"shop_link": "https://www.twix.com/products/chocolate/twix-cookies-creme-sharing-size-candy-bar-272oz-bars"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "Milk Chocolate",
+			"image": "/chocolates/Lindt/Milk Chocolate.webp",
+			"rate": 3,
+			"shop_link": "https://www.toblerone.co.uk/personalised-toblerone-chocolate-360g-bar/13165629.html"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "Dark Chocolate",
+			"image": "/chocolates/Lindt/Dark Chocolate.webp",
+			"rate": 3,
+			"shop_link": "https://www.lindtusa.com/dark-chocolate-lindor-truffles-75-pc-bag-4854"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "White Chocolate",
+			"image": "/chocolates/Lindt/White Chocolate.webp",
+			"rate": 3,
+			"shop_link": "https://www.lindtusa.com/white-chocolate-lindor-truffles-75-pc-bag-44990l"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "Extra Dark",
+			"image": "/chocolates/Lindt/Extra Dark.webp",
+			"rate": 3,
+			"shop_link": "https://www.lindtusa.com/60-percent-extra-dark-chocolate-lindor-truffles-75-pc-bag-4855"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "Sea Salt Milk",
+			"image": "/chocolates/Lindt/Sea Salt Milk.webp",
+			"rate": 3,
+			"shop_link": "https://www.lindtusa.com/sea-salt-milk-chocolate-lindor-truffles-75-pc-bag-5652"
+		},
+		{
+			"brand": "Lindt",
+			"brand_link": "https://www.lindt.co.uk",
+			"name": "Ultimate 5-Flavor",
+			"image": "/chocolates/Lindt/Ultimate 5-Flavor.webp",
+			"rate": 3,
+			"shop_link": "https://www.lindtusa.com/ultimate-5-flavor-assortment-lindor-truffles-75-pc-bag-44759l"
+		}
+	]
+}

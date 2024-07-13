@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./animations.css');
+@import url('./customs.css');
+@import url('./links.css');
+@import url('./theme.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+	width: 4px;
+	border-radius: 100px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--color-primary-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border-radius: 1000px;
+	background: var(--color-brand-extradark);
+}
+
+html {
+	font-size: 100%;
+}
+
+/* 75em = 1200px */
+@media only screen and (max-width: 75em) {
+	html {
+		/* 15px = 93.75% | 14px = 87.5% */
+		font-size: 93.75%;
+	}
+}
+
+/* 56.25em = 900px */
+@media only screen and (max-width: 56.25em) {
+	html {
+		/* 14px = 87.5% | 13px = 81.25% */
+		font-size: 87.5%;
+	}
+}
+
+body {
+	overscroll-behavior: smooth;
+	overflow-y: scroll;
+}

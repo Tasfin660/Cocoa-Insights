@@ -1,0 +1,390 @@
+{
+	"premiums": [
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Nocciola",
+			"image": "/premiums/Amedei/Toscano Nocciola.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-nocciola/"
+		},
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Pistachio",
+			"image": "/premiums/Amedei/Toscano Pistachio.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-pistachio/"
+		},
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Frutti Rossi",
+			"image": "/premiums/Amedei/Toscano Frutti Rossi.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-frutti-rossi/"
+		},
+
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Frutti Gialli",
+			"image": "/premiums/Amedei/Toscano Frutti Gialli.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-frutti-gialli/"
+		},
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Mandorla",
+			"image": "/premiums/Amedei/Toscano Mandorla.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-mandorla/"
+		},
+		{
+			"brand": "Amedei",
+			"country": "italy",
+			"brand_link": "https://amedeitoscana.net",
+			"name": "Toscano Latte",
+			"image": "/premiums/Amedei/Toscano Latte.webp",
+			"shop_link": "https://amedeitoscana.net/product/toscano-latte/"
+		},
+		{
+			"brand": "Godiva",
+			"country": "belgium",
+			"brand_link": "https://www.godiva.com",
+			"name": "Dark Chocolate",
+			"image": "/premiums/Godiva/Dark Chocolate.webp",
+			"shop_link": "https://www.godiva.com/assorted-dark-chocolate-gift-box-18pc/15223.html"
+		},
+		{
+			"brand": "Godiva",
+			"country": "belgium",
+			"brand_link": "https://www.godiva.com",
+			"name": "Dark Chocolate Truffles",
+			"image": "/premiums/Godiva/Dark Chocolate Truffles.webp",
+			"shop_link": "https://www.godiva.com/12pc-dark-chocolate-truffles/14227.html"
+		},
+		{
+			"brand": "Godiva",
+			"country": "belgium",
+			"brand_link": "https://www.godiva.com",
+			"name": "Signature Truffles",
+			"image": "/premiums/Godiva/Signature Truffles.webp",
+			"shop_link": "https://www.godiva.com/trufflesmaster/TRUFFLESMASTER.html"
+		},
+		{
+			"brand": "Godiva",
+			"country": "belgium",
+			"brand_link": "https://www.godiva.com",
+			"name": "Patisserie Dessert Truffles",
+			"image": "/premiums/Godiva/Patisserie Dessert Truffles.webp",
+			"shop_link": "https://www.godiva.com/desserttruffles/DESSERTTRUFFLES.html"
+		},
+		{
+			"brand": "Godiva",
+			"country": "belgium",
+			"brand_link": "https://www.godiva.com",
+			"name": "Happy Birthday Truffles",
+			"image": "/premiums/Godiva/Happy Birthday Truffles.webp",
+			"shop_link": "https://www.godiva.com/happy-birthday-truffles-gift-box-12-pc/14247.html"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Twigs Gift Box",
+			"image": "/premiums/La Maison du Chocolat/Twigs Gift Box.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/twigs-gift-box-20-chocolates"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Caramel Truffles",
+			"image": "/premiums/La Maison du Chocolat/Caramel Truffles.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/plain-cassis-caramel-truffles-245-g"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Coffret Maison",
+			"image": "/premiums/La Maison du Chocolat/Coffret Maison.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/coffret-maison-dark-and-milk-24-chocolates"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Craquant Treat Gift Box",
+			"image": "/premiums/La Maison du Chocolat/Craquant Treat Gift Box.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/craquant-treat-gift-box-paris-2024-262g"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Milk Chocolate Bar",
+			"image": "/premiums/La Maison du Chocolat/Milk Chocolate Bar.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/milk-chocolate-bar-paris-2024"
+		},
+		{
+			"brand": "La Maison du Chocolat",
+			"country": "france",
+			"brand_link": "https://www.lamaisonduchocolat.com/",
+			"name": "Dark Chocolate Bar",
+			"image": "/premiums/La Maison du Chocolat/Dark Chocolate Bar.webp",
+			"shop_link": "https://www.lamaisonduchocolat.com/en_fr/dark-chocolate-bar-paris-2024"
+		},
+
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Malline Pralines",
+			"image": "/premiums/Pierre Marcolini/Malline Pralines.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/malline-pralines-512.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Malline Découverte",
+			"image": "/premiums/Pierre Marcolini/Malline Découverte.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/malline-decouverte-5864.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Destination Vanilla",
+			"image": "/premiums/Pierre Marcolini/Destination Vanilla.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/plumier-of-18-destination-vanilla-chocolates-5831.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Pecan Nut Praliné",
+			"image": "/premiums/Pierre Marcolini/Pecan Nut Praliné.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/pecan-nut-praline-tablet-603.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Casse-Noisette",
+			"image": "/premiums/Pierre Marcolini/Casse-Noisette.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/casse-noisette-tablet-596.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Mendiant",
+			"image": "/premiums/Pierre Marcolini/Mendiant.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/mendiant-tablet-600.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "Salted Caramel",
+			"image": "/premiums/Pierre Marcolini/Salted Caramel.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/salted-caramel-tablet-595.html"
+		},
+		{
+			"brand": "Pierre Marcolini",
+			"country": "belgium",
+			"brand_link": "https://eu.marcolini.com/en/",
+			"name": "White Chocolate",
+			"image": "/premiums/Pierre Marcolini/White Chocolate.webp",
+			"shop_link": "https://eu.marcolini.com/en/p/white-chocolate-tablet-599.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Olympic Petits",
+			"image": "/premiums/Richart/Olympic Petits.webp",
+			"shop_link": "https://www.richart.com/us/summer-chocolate/900988369-olympic-petits-richart.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Intense",
+			"image": "/premiums/Richart/Intense.webp",
+			"shop_link": "https://www.richart.com/us/the-unexpected/99300013-petits-richart-intense.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Roasted",
+			"image": "/premiums/Richart/Roasted.webp",
+			"shop_link": "https://www.richart.com/us/petits-richart/99202563-petits-richart-roasted.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Fruity",
+			"image": "/premiums/Richart/Fruity.webp",
+			"shop_link": "https://www.richart.com/us/petits-richart/99202573-petits-richart-fruity.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Citrus",
+			"image": "/premiums/Richart/Citrus.webp",
+			"shop_link": "https://www.richart.com/us/petits-richart/99202583-petits-richart-citrus.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Spiced",
+			"image": "/premiums/Richart/Spiced.webp",
+			"shop_link": "https://www.richart.com/us/petits-richart/99202613-petits-richart-spiced.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Floral",
+			"image": "/premiums/Richart/Floral.webp",
+			"shop_link": "https://www.richart.com/us/petits-richart/99202603-petits-richart-floral.html"
+		},
+		{
+			"brand": "Richart",
+			"country": "france",
+			"brand_link": "https://www.richart.com/",
+			"name": "Excursion",
+			"image": "/premiums/Richart/Excursion.webp",
+			"shop_link": "https://www.richart.com/us/the-classics/99300053-camino.html"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Exotic Truffles",
+			"image": "/premiums/Vosges Haut/Exotic Truffles.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/exotic-truffle-collection-16-pieces"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Milk Chocolate Truffles",
+			"image": "/premiums/Vosges Haut/Milk Chocolate Truffles.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/milk-chocolate-truffle-collection-16-pieces"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Dream Truffles",
+			"image": "/premiums/Vosges Haut/Dream Truffles.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/dream-truffle-collection"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "The Dalmore",
+			"image": "/premiums/Vosges Haut/The Dalmore.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/exotic-truffle-collection-16-pieces"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Pink Himalayan",
+			"image": "/premiums/Vosges Haut/Pink Himalayan.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/pink-himalayan-crystal-salt-caramel-bar"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Mo's Dark",
+			"image": "/premiums/Vosges Haut/Mo's Dark.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/dark-chocolate-bacon-bars"
+		},
+		{
+			"brand": "Vosges Haut",
+			"country": "united-states",
+			"brand_link": "https://www.vosgeschocolate.com",
+			"name": "Turmeric Ginger",
+			"image": "/premiums/Vosges Haut/Turmeric Ginger.webp",
+			"shop_link": "https://www.vosgeschocolate.com/products/turmeric-ginger-chocolate-bar"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Caraïbe",
+			"image": "/premiums/Valrhona/Caraïbe.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/degustation-bar-caraibe"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Guanaja",
+			"image": "/premiums/Valrhona/Guanaja.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/degustation-bar-guanaja"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Abinao",
+			"image": "/premiums/Valrhona/Abinao.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/degustation-bar-abinao"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Dulcey",
+			"image": "/premiums/Valrhona/Dulcey.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/degustation-bar-dulcey"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Bahibé",
+			"image": "/premiums/Valrhona/Bahibé.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/pure-origin-bar-bahibe"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Manjari",
+			"image": "/premiums/Valrhona/Manjari.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/pure-origin-bar-manjari"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Andoa Noir",
+			"image": "/premiums/Valrhona/Andoa Noir.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/pure-origin-bar-andoa-noir"
+		},
+		{
+			"brand": "Valrhona",
+			"country": "france",
+			"brand_link": "https://www.valrhona.com/",
+			"name": "Oriado",
+			"image": "/premiums/Valrhona/Oriado.webp",
+			"shop_link": "https://www.valrhona.com/en/our-products/for-consumers/gourmets-range/chocolate-bars-sticks/for-tasting/degustation-bar-oriado-60"
+		}
+	]
+}
