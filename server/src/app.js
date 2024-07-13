@@ -22,10 +22,10 @@ if (!process.argv.includes('--dev')) {
 	app.use(
 		express.static(join(clientDir, './dist/____'), {
 			cacheControl: false,
-			setHeaders({ setHeader }, path, __) {
+			setHeaders(res, path, __) {
 				const bn = basename(path)
-				if (bn && bn.match(/.*-.{8}.[a-zA-Z0-9]+$/)?.[0] === bn) setHeader('cache-control', 'public, max-age=31536000, immutable')
-				else setHeader('cache-control', 'public, max-age=60, must-revalidate')
+				if (bn && bn.match(/.*-.{8}.[a-zA-Z0-9]+$/)?.[0] === bn) res.setHeader('cache-control', 'public, max-age=31536000, immutable')
+				else res.setHeader('cache-control', 'public, max-age=60, must-revalidate')
 			}
 		})
 	)
