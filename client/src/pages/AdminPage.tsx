@@ -2,8 +2,13 @@ import DeleteItem from '@/components/DeleteItem';
 import DeleteWarnings from '@/components/DeleteWarnings';
 import GetId from '@/components/GetId';
 import User from '@/components/User';
+import { useEffect } from 'react';
 
 const AdminPage = () => {
+	useEffect(() => {
+		document.title = 'Admin';
+	}, []);
+
 	return (
 		<main className="container my-16">
 			<User />

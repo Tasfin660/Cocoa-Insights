@@ -1,7 +1,12 @@
 import AddForm from '@/components/AddForm';
 import User from '@/components/User';
+import { useEffect } from 'react';
 
 const AddNewPage = () => {
+	useEffect(() => {
+		document.title = 'Add new chocolate';
+	}, []);
+
 	return (
 		<main className="container my-16">
 			<User />
