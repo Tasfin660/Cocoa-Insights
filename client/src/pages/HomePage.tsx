@@ -40,7 +40,7 @@ const HomePage = () => {
 					</p>
 					<div className="flex items-center justify-between">
 						<a
-							href="https://github.com/Tasfin660/cocoa-insights"
+							href="https://github.com/Tasfin660/Cocoa-Insights"
 							target="_blank"
 							className="special-btn">
 							<FaGithub className="z-10 box-content rounded-full bg-brand-dark px-3 py-2 text-xl text-primary-light" />
