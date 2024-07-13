@@ -19,7 +19,7 @@ const DeleteWarnings = () => {
 				Deleting a document will permanently remove it from the Database. To
 				test the delete feature, it is recommended to create and delete your own
 				document. Please avoid modifying the initial data to maintain a
-				reference for future users.
+				reference for future visitors.
 			</p>
 		</>
 	);
