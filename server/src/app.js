@@ -29,6 +29,8 @@ if (!process.argv.includes('--dev')) {
 			}
 		})
 	)
+
+	app.get('*', (_, res) => res.setHeader('cache-control', 'public, max-age=60, must-revalidate').sendFile(join(clientDir, './dist/____/index.html')))
 } else {
 	const { createServer } = await import('vite')
 
