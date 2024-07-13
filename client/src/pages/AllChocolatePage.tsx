@@ -6,8 +6,7 @@ import { useData } from '@/contexts/DataContext';
 import { useEffect, useState } from 'react';
 
 const AllChocolatePage = () => {
-	const { chocolatesData, fakeLoading, getChocolates, isLoading, error } =
-		useData();
+	const { chocolatesData, getChocolates, isLoading, error } = useData();
 	const [activeBrand, setActiveBrand] = useState('All');
 	const handleActiveBrand = (brand: string) => {
 		setActiveBrand(brand);
@@ -23,10 +22,7 @@ const AllChocolatePage = () => {
 	}, []);
 
 	useEffect(() => {
-		fakeLoading();
-		setTimeout(() => {
-			getChocolates();
-		}, 1500);
+		getChocolates();
 	}, []);
 
 	if (isLoading) return <Loader />;

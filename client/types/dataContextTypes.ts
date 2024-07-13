@@ -1,7 +1,6 @@
 import { DataType } from './interfaces';
 
 interface ContextType {
-	fakeLoading: () => void;
 	getChocolates: () => void;
 	getPremiums: () => void;
 	postChocolate: (data: DataType) => void;

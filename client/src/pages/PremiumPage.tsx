@@ -6,18 +6,14 @@ import { useData } from '@/contexts/DataContext';
 import { useEffect } from 'react';
 
 const PremiumPage = () => {
-	const { premiumsData, fakeLoading, getPremiums, isLoading, error } =
-		useData();
+	const { premiumsData, getPremiums, isLoading, error } = useData();
 
 	useEffect(() => {
 		document.title = 'Cocoa Insights | Premiums';
 	}, []);
 
 	useEffect(() => {
-		fakeLoading();
-		setTimeout(() => {
-			getPremiums();
-		}, 1000);
+		getPremiums();
 	}, []);
 
 	if (isLoading) return <Loader />;

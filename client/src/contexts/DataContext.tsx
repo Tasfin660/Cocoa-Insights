@@ -31,7 +31,8 @@ const reducer = (state: InitialState, action: Action) => {
 				...state,
 				chocolatesData: state.chocolatesData.filter(
 					item => item['_id'] !== action.payload
-				)
+				),
+				isLoading: false
 			};
 		case 'premiums/loaded':
 			return { ...state, premiumsData: action.payload, isLoading: false };
@@ -51,6 +52,7 @@ const DataProvider = ({ children }: { children: ReactNode }) => {
 		useReducer(reducer, initialState);
 
 	const getChocolates = () => {
+		dispatch({ type: 'loading' });
 		axios
 			.get(`/api/v1/chocolates`)
 			.then(res => dispatch({ type: 'chocolates/loaded', payload: res.data }))
@@ -72,14 +74,11 @@ const DataProvider = ({ children }: { children: ReactNode }) => {
 	};
 
 	const getPremiums = () => {
+		dispatch({ type: 'loading' });
 		axios
 			.get(`/api/v1/premiums`)
 			.then(res => dispatch({ type: 'premiums/loaded', payload: res.data }))
 			.catch(err => dispatch({ type: 'error', payload: err.message }));
-	};
-
-	const fakeLoading = () => {
-		dispatch({ type: 'loading' });
 	};
 
 	return (
@@ -89,7 +88,6 @@ const DataProvider = ({ children }: { children: ReactNode }) => {
 				premiumsData,
 				isLoading,
 				error,
-				fakeLoading,
 				getChocolates,
 				getPremiums,
 				postChocolate,
