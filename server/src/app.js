@@ -4,10 +4,8 @@ import express from 'express'
 import connectDB from '../config/db.js'
 import chocolateRouter from './routes/chocolateRoute.js'
 import premiumRouter from './routes/premiumRoute.js'
-import { dirname, join, basename } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import vite from '../config/vite.js'
 
-const clientDir = join(dirname(fileURLToPath(import.meta.url)), '../../client')
 const app = express()
 connectDB()
 
@@ -18,30 +16,7 @@ app.use(bodyParser.json())
 app.use('/api/v1/chocolates', chocolateRouter)
 app.use('/api/v1/premiums', premiumRouter)
 
-if (!process.argv.includes('--dev')) {
-	app.use(
-		express.static(join(clientDir, './dist/____'), {
-			cacheControl: false,
-			setHeaders(res, path, __) {
-				const bn = basename(path)
-				if (bn && bn.match(/.*-.{8}.[a-zA-Z0-9]+$/)?.[0] === bn) res.setHeader('cache-control', 'public, max-age=31536000, immutable')
-				else res.setHeader('cache-control', 'public, max-age=60, must-revalidate')
-			}
-		})
-	)
-
-	app.get('*', (_, res) => res.setHeader('cache-control', 'public, max-age=60, must-revalidate').sendFile(join(clientDir, './dist/____/index.html')))
-} else {
-	const { createServer } = await import('vite')
-
-	const vite = await createServer({
-		configFile: join(clientDir, './vite.config.ts'),
-		server: {
-			middlewareMode: true
-		}
-	})
-
-	app.get('*', (req, res) => vite.middlewares(req, res))
-}
+// handle frontend
+await vite(express, app)
 
 export default app
