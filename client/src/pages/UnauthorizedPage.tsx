@@ -8,6 +8,10 @@ const UnauthorizedPage = () => {
 	const navigate = useNavigate();
 
 	useEffect(() => {
+		document.title = 'Cocoa Insights | Unauthorized';
+	}, []);
+
+	useEffect(() => {
 		if (authState) navigate('/', { replace: true });
 	}, [authState, navigate]);
 

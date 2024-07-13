@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 const AdminPage = () => {
 	useEffect(() => {
-		document.title = 'Admin';
+		document.title = 'Cocoa Insights | Admin';
 	}, []);
 
 	return (

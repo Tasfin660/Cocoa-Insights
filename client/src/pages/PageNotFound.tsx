@@ -6,6 +6,10 @@ const PageNotFound = () => {
 	const { pathname } = useLocation();
 
 	useEffect(() => {
+		document.title = 'Cocoa Insights | 404';
+	}, []);
+
+	useEffect(() => {
 		window.history.replaceState(null, pathname, '/404');
 	}, [pathname]);
 

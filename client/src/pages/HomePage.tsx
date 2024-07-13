@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { LuDot } from 'react-icons/lu';
 
 const HomePage = () => {
+	useEffect(() => {
+		document.title = 'Cocoa Insights | Home';
+	}, []);
+
 	return (
 		<header className="bg-hero bg-cover bg-center">
 			<div className="container flex h-full items-center justify-center gap-12">

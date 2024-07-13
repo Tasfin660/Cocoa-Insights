@@ -19,6 +19,10 @@ const AllChocolatePage = () => {
 			: chocolatesData.filter(item => item.brand === activeBrand);
 
 	useEffect(() => {
+		document.title = 'Cocoa Insights | All';
+	}, []);
+
+	useEffect(() => {
 		fakeLoading();
 		setTimeout(() => {
 			getChocolates();

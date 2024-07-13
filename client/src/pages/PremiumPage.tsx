@@ -10,6 +10,10 @@ const PremiumPage = () => {
 		useData();
 
 	useEffect(() => {
+		document.title = 'Cocoa Insights | Premiums';
+	}, []);
+
+	useEffect(() => {
 		fakeLoading();
 		setTimeout(() => {
 			getPremiums();
