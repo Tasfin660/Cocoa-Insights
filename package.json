@@ -1,11 +1,17 @@
 {
-	"type": "module",
-	"scripts": {
-		"start": "cd server && node src/server.js",
-		"build": "cd client && npm run build",
-		"dev": "cd server && npm run server",
-		"install:server": "cd server && npm install",
-		"install:client": "cd client && npm install",
-		"install": "npm run install:server && npm run install:client"
-	}
+  "name": "Cocoa Insights",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cocoa Insights, a MERN stack project.",
+  "type": "module",
+  "scripts": {
+    "start": "cd server && node src/server.js",
+    "build": "cd client && npm run build",
+    "dev": "cd server && npm run server",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install": "npm run install:server && npm run install:client"
+  },
+  "author": "Tasfin & Rifat",
+  "license": "ISC"
 }

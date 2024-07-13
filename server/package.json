@@ -1,22 +1,20 @@
 {
-	"name": "server",
-	"private": true,
-	"version": "1.0.0",
-	"description": "a node.js server for Cocoa Insights react website project",
-	"type": "module",
-	"main": "src/app.js",
-	"scripts": {
-		"server": "nodemon src/server.js --dev"
-	},
-	"dependencies": {
-		"dotenv": "^16.4.5",
-		"express": "^4.19.2",
-		"mongoose": "^8.5.0",
-		"vite": "^5.3.3"
-	},
-	"devDependencies": {
-		"nodemon": "^3.1.4"
-	},
-	"author": "Tasfin",
-	"license": "ISC"
+  "name": "server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "a node.js server for Cocoa Insights project",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "server": "nodemon src/server.js --dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "vite": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
