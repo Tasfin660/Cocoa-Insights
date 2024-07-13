@@ -4,7 +4,7 @@ import express from 'express'
 import connectDB from '../config/db.js'
 import chocolateRouter from './routes/chocolateRoute.js'
 import premiumRouter from './routes/premiumRoute.js'
-import { dirname, join } from 'node:path'
+import { dirname, join, basename } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const clientDir = join(dirname(fileURLToPath(import.meta.url)), '../../client')
