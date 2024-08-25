@@ -28,7 +28,7 @@ export default {
 				'gold-dark': 'var(--color-gold-dark)'
 			},
 			backgroundImage: {
-				hero: "url('/hero.webp')"
+				hero: "url('/hero.png')"
 			},
 			boxShadow: {
 				'material': 'var(--box-shadow--material)',
